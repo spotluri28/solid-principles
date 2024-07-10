@@ -9,6 +9,7 @@ This principle states that a class should have only one reason to change. In oth
 So, what does that mean actually? While you design your logic in either class or method, you should not be writing all kinds of responsibilities in one place. This will make your code quite complex and unmanageable. It will also be difficult to adjust new changes later as there are high chances it will affect the other functionality and you will end up testing all the functionalities even though it is a smaller change.
 
 # Single Responsibility Principle (SRP)
+
 class FileManager:
     def __init__(self, file_path):
         self.file_path = file_path
